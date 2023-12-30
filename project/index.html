@@ -1,0 +1,538 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Zeru portofolio</title>
+        <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="menu-icon" onclick="nav()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="logox">
+                <label class="logo">Zeru</label>
+            </div>
+            <ul class="nav-links">
+                <b id="closeNav">X</b>
+                <img class="logo-nav" src="logo-nav.png" alt="logo" />
+                <li><a class="a-linkNav" href="/home">Home</a></li>
+                <li><a class="a-linkNav" href="/skils">My Skils</a></li>
+                <li>
+                    <a class="a-linkNav activeNav" href="/project"
+                        >My Project</a
+                    >
+                </li>
+                <li><a class="a-linkNav" href="/about">About me</a></li>
+                <li><a class="a-linkNav" href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <div class="opening">
+                <label class="judul"> My work </label>
+                <p class="desk-judul">
+                    This is my work from 2023 until the future, namely 2024.
+                    Still relying on 3 languages, namely HTML CSS JS.
+                </p>
+                <br />
+                <br />
+                <div class="con-projek">
+                    <button
+                        id="Al"
+                        class="btn-select act-btn"
+                        onclick="alBtn()"
+                    >
+                        All
+                    </button>
+                    <button id="In" class="btn-select" onclick="inBtn()">
+                        Interactive
+                    </button>
+                    <button id="St" class="btn-select" onclick="stBtn()">
+                        Static
+                    </button>
+                    <br />
+                    <br />
+                </div>
+                <div class="con-img" id="chIsi">
+                    <div
+                        class="box"
+                        onclick="window.location.href = 'https://videografi-zerux.zeru-program.repl.co/'"
+                    >
+                        <div class="img-t">
+                            <p class="date">1 July, 2023</p>
+                            <p class="title">Website belajar videografi zeru</p>
+                        </div>
+                        <img class="p1-img" src="videografi.png" alt="" />
+                    </div>
+                    <div
+                        class="box"
+                        onclick="window.location.href = 'https://my-profile.zeru-program.repl.co/'"
+                    >
+                        <div class="img-t">
+                            <p class="date">21 July, 2023</p>
+                            <p class="title">Profile shortlink</p>
+                        </div>
+                        <img class="p1-img" src="profile.png" alt="" />
+                    </div>
+                    <div
+                        class="box"
+                        onclick="window.location.href = 'https://zeruxwebsite.zeru-program.repl.co/'"
+                    >
+                        <div class="img-t">
+                            <p class="date">12 Okt, 2023</p>
+                            <p class="title">Zerux website mini</p>
+                        </div>
+                        <img class="p1-img" src="zerux.png" alt="" />
+                    </div>
+                    <div
+                        class="box"
+                        onclick="window.location.href = 'https://timer.zeru-program.repl.co/'"
+                    >
+                        <div class="img-t">
+                            <p class="date">16 Okt, 2023</p>
+                            <p class="title">Timer countdown and chat</p>
+                        </div>
+                        <img class="p1-img" src="timer.png" alt="" />
+                    </div>
+                    <div
+                        class="box"
+                        onclick="window.location.href = 'https://teka-teki-gamez.zeru-program.repl.co/'"
+                    >
+                        <div class="img-t">
+                            <p class="date">21 Nov, 2023</p>
+                            <p class="title">Games teka-teki kata dan gambar</p>
+                        </div>
+                        <img class="p1-img" src="quiz.png" alt="" />
+                    </div>
+                    <div
+                        class="box"
+                        onclick="window.location.href = 'https://michaelstore.zeru-program.repl.co/'"
+                    >
+                        <div class="img-t">
+                            <p class="date">10 Sept, 2023</p>
+                            <p class="title">E-commerce Michael store</p>
+                        </div>
+                        <img class="p1-img" src="mikel.png" alt="" />
+                    </div>
+                    <div
+                        class="box"
+                        onclick="window.location.href = 'https://natal-kids.zeru-program.repl.co/'"
+                    >
+                        <div class="img-t">
+                            <p class="date">20 Dec, 2023</p>
+                            <p class="title">Doorprize Natal LK</p>
+                        </div>
+                        <img class="p1-img" src="doorprize.png" alt="" />
+                    </div>
+                    <div
+                        class="box"
+                        onclick="window.location.href = 'https://portofolio.zeru-program.repl.co/'"
+                    >
+                        <div class="img-t">
+                            <p class="date">31 Dec, 2023</p>
+                            <p class="title">First portofolio zeru</p>
+                        </div>
+                        <img class="p1-img" src="portofolio.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <label class="logo-ft">Zeru</label>
+                <br />
+                <br />
+                <div class="left-ft1">
+                    <b
+                        style="
+                            color: #84f091;
+                            font-weight: 800;
+                            border-bottom: 2px solid #84f091;
+                        "
+                        >Sosial media</b
+                    >
+                    <br />
+                    <br />
+                    email: zeruprogram@gmail.com
+                    <br />
+                    <br />
+                    contact: +6287774487198
+                    <br />
+                    <br />
+                    contact lain: +6289526333265
+                    <br />
+                    <br />
+                    Instagram: @zerr.ace
+                    <br />
+                    <br />
+                    Youtube: @zeru
+                    <br />
+                    <br />
+                    Website: <a href="#">zeru.portofolio/web</a>
+                    <br />
+                    <br />
+                </div>
+                <br />
+                <div class="left-ft2">
+                    <b
+                        style="
+                            color: #84f091;
+                            font-weight: 800;
+                            border-bottom: 2px solid #84f091;
+                        "
+                        >Our information</b
+                    >
+                    <br />
+                    <br />
+                    region: Indonesia
+                    <br />
+                    <br />
+                    benua: Asia
+                    <p id="ipWeb">Ip web: zzy-99922ky</p>
+                    provinsi: Jawa
+                    <br />
+                    <br />
+                    Kota/kabupaten: -
+                    <br />
+                    <br />
+                    recourse code: HTML CSS JS PHP PYHTON
+                    <br />
+                    <br />
+                    tools website: Acode, VS Code, Responsif checked, Replit.
+                    <br />
+                    <br />
+                </div>
+                <br />
+                <div class="left-ft2">
+                    <b
+                        style="
+                            color: #84f091;
+                            font-weight: 800;
+                            border-bottom: 2px solid #84f091;
+                        "
+                        >Our service</b
+                    >
+                    <br />
+                    <br />
+                    - Builder anything website
+                    <br />
+                    <br />
+                    - Edit video lyrics
+
+                    <br />
+                    <br />
+
+                    - Editing video mini (2-5 mnt) on the perfect.
+                    <br />
+                    <br />
+                    - IT front-end support
+                    <br />
+                    <br />
+                    - Photograph mini event
+                    <br />
+                    <br />
+                    - Design promosi,product,information,pra-event, dll.
+                    <br />
+                    <br />
+                    Take uor sevice in
+                    <a
+                        href="https://wa.me/6287774487198?text=Hi%20Justine!%20I'am%20...%0D%0AAku%20ingin%20memesan%20layanan%20yang%20tersedia%20di%20website%portofoliomu%20%0D%0ASaya%ingin%20memesan%20..(type%20your%20message%20in%20here)"
+                        >here</a
+                    >
+                    <br />
+                    <br />
+                </div>
+                <div class="center-ft">
+                    Who is zeru? zeru adalah nama atau logo web yang dibuat oleh
+                    <b>Justine</b>.<br />Secara utuh website portofolio ini
+                    dibangun oleh zeru/Justine.<br />
+                    Build in HTML CSS JS PHP PYHTON, RELEASE 25 DECEMBER 2023.
+                    <br />
+                    © copyright all reversed with zeru/justine. privacy police
+                    active.
+                    <br />
+                    <br />
+                    <p id="waktu"></p>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" charset="utf-8">
+            console.log("© copyright zeru");
+
+            //sistem navigasi
+            const barOn = document.querySelector(".bar");
+            const barOf = document.getElementById("closeNav");
+            const navIsi = document.querySelector(".nav-links");
+            const navIsiA = document.querySelector(".a-linkNav");
+            barOn.addEventListener("click", () => {
+                navIsi.classList.add("active");
+                barOf.style.display = "flex";
+            });
+            barOf.addEventListener("click", () => {
+                barOf.style.transition = ".6s";
+                barOf.style.marginTop = "20%";
+
+                setTimeout(function () {
+                    barOf.style.fontSize = "3em";
+                    barOf.style.textShadow = "3px 3px 3px red";
+                    barOf.style.background = "#2a2a2a";
+                    barOf.style.height = "100%";
+                    barOf.style.width = "100%";
+                    barOf.style.zIndex = "3";
+                }, 600);
+                setTimeout(function () {
+                    navIsi.classList.remove("active");
+                    barOf.style.display = "none";
+                }, 1500);
+            });
+            function nav() {
+                navIsi.classList.add("active");
+                barOf.style.display = "flex";
+                barOf.style.fontSize = "1em";
+                barOf.style.background = "#2a2a2a";
+                barOf.style.height = "1px";
+                barOf.style.width = "1px";
+                barOf.style.marginTop = "5px";
+                barOf.style.marginLeft = "5px";
+                barOf.style.textShadow = "0 0 10px white";
+                barOf.style.paddingLeft = "5%";
+            }
+
+            //sistem bar select
+            const aL = document.getElementById("Al");
+            const iN = document.getElementById("In");
+            const sT = document.getElementById("St");
+            const txT = document.getElementById("chIsi");
+
+            function alBtn() {
+                aL.classList.add("act-btn");
+                iN.classList.remove("act-btn");
+                sT.classList.remove("act-btn");
+                txT.innerHTML = `<div class="con-img" id="chIsi">
+                    <div
+                        class="box"
+                        onclick="window.location.href = 'https://videografi-zerux.zeru-program.repl.co/'"
+                    >
+                        <div class="img-t">
+                            <p class="date">1 July, 2023</p>
+                            <p class="title">Website belajar videografi zeru</p>
+                        </div>
+                        <img class="p1-img" src="videografi.png" alt="" />
+                    </div>
+                    <div
+                        class="box"
+                        onclick="window.location.href = 'https://my-profile.zeru-program.repl.co/'"
+                    >
+                        <div class="img-t">
+                            <p class="date">21 July, 2023</p>
+                            <p class="title">Profile shortlink</p>
+                        </div>
+                        <img class="p1-img" src="profile.png" alt="" />
+                    </div>
+                    <div
+                        class="box"
+                        onclick="window.location.href = 'https://zeruxwebsite.zeru-program.repl.co/'"
+                    >
+                        <div class="img-t">
+                            <p class="date">12 Okt, 2023</p>
+                            <p class="title">Zerux website mini</p>
+                        </div>
+                        <img class="p1-img" src="zerux.png" alt="" />
+                    </div>
+                    <div
+                        class="box"
+                        onclick="window.location.href = 'https://timer.zeru-program.repl.co/'"
+                    >
+                        <div class="img-t">
+                            <p class="date">16 Okt, 2023</p>
+                            <p class="title">Timer countdown and chat</p>
+                        </div>
+                        <img class="p1-img" src="timer.png" alt="" />
+                    </div>
+                    <div
+                        class="box"
+                        onclick="window.location.href = 'https://teka-teki-gamez.zeru-program.repl.co/'"
+                    >
+                        <div class="img-t">
+                            <p class="date">21 Nov, 2023</p>
+                            <p class="title">Games teka-teki kata dan gambar</p>
+                        </div>
+                        <img class="p1-img" src="quiz.png" alt="" />
+                    </div>
+                    <div
+                        class="box"
+                        onclick="window.location.href = 'https://michaelstore.zeru-program.repl.co/'"
+                    >
+                        <div class="img-t">
+                            <p class="date">10 Sept, 2023</p>
+                            <p class="title">E-commerce Michael store</p>
+                        </div>
+                        <img class="p1-img" src="mikel.png" alt="" />
+                    </div>
+                    <div
+                        class="box"
+                        onclick="window.location.href = 'https://natal-kids.zeru-program.repl.co/'"
+                    >
+                        <div class="img-t">
+                            <p class="date">20 Dec, 2023</p>
+                            <p class="title">Doorprize Natal LK</p>
+                        </div>
+                        <img class="p1-img" src="doorprize.png" alt="" />
+                    </div>
+                    <div
+                        class="box"
+                        onclick="window.location.href = 'https://portofolio.zeru-program.repl.co/'"
+                    >
+                        <div class="img-t">
+                            <p class="date">31 Dec, 2023</p>
+                            <p class="title">First portofolio zeru</p>
+                        </div>
+                        <img class="p1-img" src="portofolio.png" alt="" />
+                    </div>
+                </div>`;
+            }
+            function inBtn() {
+                iN.classList.add("act-btn");
+                aL.classList.remove("act-btn");
+                sT.classList.remove("act-btn");
+                txT.innerHTML = `<div class="con-img">
+                    <div class="box" onclick="window.location.href = 'https://timer.zeru-program.repl.co/'">
+                        <div class="img-t">
+                            <p class="date">16 Okt, 2023</p>
+                            <p class="title">Timer countdown and chat</p>
+                        </div>
+                        <img class="p1-img" src="timer.png" alt="" />
+                    </div>
+                    <div class="box" onclick="window.location.href = 'https://teka-teki-gamez.zeru-program.repl.co/'">
+                        <div class="img-t">
+                            <p class="date">21 Nov, 2023</p>
+                            <p class="title">Games teka-teki kata dan gambar</p>
+                        </div>
+                        <img class="p1-img" src="quiz.png" alt="" />
+                    </div>
+                    <div class="box" onclick="window.location.href = 'https://natal-kids.zeru-program.repl.co/'">
+                        <div class="img-t">
+                            <p class="date">20 Dec, 2023</p>
+                            <p class="title">Doorprize Natal LK</p>
+                        </div>
+                        <img class="p1-img" src="doorprize.png" alt="" />
+                    </div>
+                </div>`;
+            }
+            function stBtn() {
+                sT.classList.add("act-btn");
+                aL.classList.remove("act-btn");
+                iN.classList.remove("act-btn");
+                txT.innerHTML = `<div class="con-img">
+                    <div class="box"
+                        onclick="window.location.href = 'https://videografi-zerux.zeru-program.repl.co/'">
+                        <div class="img-t">
+                            <p class="date">1 July, 2023</p>
+                            <p class="title">Website belajar videografi zeru</p>
+                        </div>
+                        <img class="p1-img" src="videografi.png" alt="" />
+                    </div>
+                    <div class="box"
+                        onclick="window.location.href = 'https://my-profile.zeru-program.repl.co/'">
+                        <div class="img-t">
+                            <p class="date">21 July, 2023</p>
+                            <p class="title">Profile shortlink</p>
+                        </div>
+                        <img class="p1-img" src="profile.png" alt="" />
+                    </div>
+                    <div class="box"
+                        onclick="window.location.href = 'https://zeruxwebsite.zeru-program.repl.co/'">
+                        <div class="img-t">
+                            <p class="date">12 Okt, 2023</p>
+                            <p class="title">Zerux website mini</p>
+                        </div>
+                        <img class="p1-img" src="zerux.png" alt="" />
+                    </div>
+                    <div class="box"
+                        onclick="window.location.href = 'https://michaelstore.zeru-program.repl.co/'">
+                        <div class="img-t">
+                            <p class="date">10 Sept, 2023</p>
+                            <p class="title">E-commerce Michael store</p>
+                        </div>
+                        <img class="p1-img" src="mikel.png" alt="" />
+                    </div>
+                    <div class="box"
+                        onclick="window.location.href = 'https://portofolio.zeru-program.repl.co/'">
+                        <div class="img-t">
+                            <p class="date">31 Dec, 2023</p>
+                            <p class="title">First portofolio zeru</p>
+                        </div>
+                        <img class="p1-img" src="portofolio.png" alt="" />
+                    </div>
+                </div>`;
+            }
+
+            // sistem waktu
+            function getNamaBulan(index) {
+                const namaBulan = [
+                    "Januari",
+                    "Februari",
+                    "Maret",
+                    "April",
+                    "Mei",
+                    "Juni",
+                    "Juli",
+                    "Agustus",
+                    "September",
+                    "Oktober",
+                    "November",
+                    "Des"
+                ];
+                return namaBulan[index];
+            }
+
+            function getNamaHari(index) {
+                const namaHari = [
+                    "Minggu",
+                    "Senin",
+                    "Selasa",
+                    "Rabu",
+                    "Kamis",
+                    "Jumat",
+                    "Sabtu"
+                ];
+                return namaHari[index];
+            }
+            function updateWaktu() {
+                var sekarang = new Date();
+
+                var hari = getNamaHari(sekarang.getDay());
+                var bulan = getNamaBulan(sekarang.getMonth());
+                var tahun = sekarang.getFullYear();
+                var jam = sekarang.getHours();
+                var menit = sekarang.getMinutes();
+                var detik = sekarang.getSeconds(+1);
+
+                document.getElementById(
+                    "waktu"
+                ).innerHTML = `${hari}, ${sekarang.getDate()} ${bulan} ${tahun}<br>${jam} : ${menit} : ${detik}`;
+            }
+
+            setInterval(updateWaktu, 1000);
+
+            //sistem ip web
+            var ip = [
+                "kz-wwwbp4-0009899",
+                "kz-wwwJxJy8-0998111",
+                "xy-wwwBPX0-91777222",
+                "jz-wwwbnBp2-11199999",
+                "er-00000-00000"
+            ];
+            function changeRandomIp() {
+                const IpTxt = document.getElementById("ipWeb");
+                const randomIp = ip[Math.floor(Math.random() * ip.length)];
+                IpTxt.innerHTML = `Ip web: ${randomIp}`;
+            }
+            setInterval(changeRandomIp, 3000);
+        </script>
+    </body>
+</html>
