@@ -1,0 +1,1031 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Amatic+SC:wght@400;700&family=Bitter:ital,wght@0,300;0,600;1,400&family=Black+Ops+One&family=Bungee+Shade&family=Exo+2&family=Gloria+Hallelujah&family=Indie+Flower&family=Kanit:ital,wght@0,400;0,600;1,100&family=Lato:ital,wght@0,300;1,300;1,700;1,900&family=Monoton&family=Nunito:wght@200;700;900&family=Permanent+Marker&family=Pixelify+Sans:wght@500&family=Press+Start+2P&family=Rowdies:wght@300&family=Rubik+Moonrocks&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  user-select: none;
+}
+
+a {
+  color: #4668da;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8%;
+  background: #2a2a2a;
+  margin-top: 0;
+  z-index: 9999;
+  justify-content: space-between;
+  
+}
+
+.nav-links {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  box-shadow: 0 -5px 10px #222222a6;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-left: 10px;
+  float: left;
+  color: white;
+  font-weight: 100;
+  font-family: "Rowdies", Sans-Serif;
+  margin-top: 4%;
+  margin-left: 2%;
+}
+
+.logox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-nav {}
+
+.menu-icon:active {
+  transform: scale(.9);
+  transition: .4s;
+}
+
+.menu-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  float: right;
+  text-align: center;
+  padding-top: 4%;
+  padding-right: 4%;
+}
+
+.a-linkNav:active {
+  transform: scale(.9);
+  border-bottom: 2px solid #41eb55;
+  transition: .4s;
+}
+
+.bar {
+  margin: 2px;
+  width: 20px;
+  background: white;
+  height: 2px;
+}
+
+#waktu {
+  text-align: center;
+  color: #c7c7c7;
+  border-radius: 2px;
+  font-family: "Poppins", Sans-Serif;
+  background: transparent;
+  padding: 3px 5px;
+}
+
+#closeNav:active {
+  transform: scale(.9);
+  transition: .4s;
+}
+
+#closeNav {
+  justify-content: center;
+  transition: .4s;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  padding: 20px;
+  animation: pudar 2s ease;
+}
+
+@keyframes pudar {
+  from {
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.opening {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding-top: 50%;
+  padding-bottom: 30%;
+  color: white;
+  background: #363636;
+}
+
+@keyframes in {
+  from {
+    position: relative;
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.isi1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background: #363636;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  width: 100%;
+  height: 50vh;
+  color: white;
+  background: #141414;
+}
+
+.logo-ft {
+  font-weight: 100;
+  font-family: "Rowdies", Sans-Serif;
+}
+
+.left-ft1 {
+  text-align: left;
+  padding-left: 10px;
+  font-size: .6em;
+}
+
+.center-ft {
+  text-align: center;
+  margin-top: 10%;
+  font-size: .7em;
+}
+
+.left-ft2 {
+  text-align: left;
+  padding-left: 10px;
+  font-size: .6em;
+}
+
+
+
+
+.judul {
+  color: #41eb55;
+  padding: 0 50px;
+  border-bottom: 2px solid white;
+  font-weight: 800;
+}
+
+.desk-judul {
+  color: #c7c7c7;
+  padding: 5px 30px;
+  text-align: center;
+  margin: 0;
+  font-family: "Poppins", Sans-Serif;
+}
+
+.con-img-skil {
+  animation: in 3s ease;
+}
+
+.img-skil {
+  margin: 10px 8px;
+  padding: 5px 5px;
+  border-radius: 3px;
+  background: #2d2d2d;
+  box-shadow: 0 0 5px #41eb55;
+}
+
+.img-skil-pre {
+  margin: 5px 8px;
+  padding: 5px 5px;
+  border-radius: 3px;
+  background: #343434;
+  background: #2d2d2d;
+}
+
+.container-skil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: in 4s ease;
+}
+
+.con-range-skil {
+  width: 80%;
+  height: auto;
+  background: #464646;
+  border-radius: 50px;
+}
+
+.skils {
+  border-radius: 50px;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+  border-radius: 50px;
+  width: 100%;
+  background-color: #dc720b;
+  font-family: "Rowdies", Sans-Serif;
+  font-weight: 400;
+  animation: htmlful 4s ease;
+}
+
+@keyframes htmlful {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 100%;
+  }
+}
+
+.css {
+  border-radius: 50px;
+  width: 99%;
+  background-color: #0b63e8dd;
+  font-family: "Rowdies", Sans-Serif;
+  font-weight: 400;
+  animation: cssful 4s ease;
+}
+
+@keyframes cssful {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 99%;
+  }
+}
+
+.js {
+  border-radius: 50px;
+  width: 90%;
+  background-color: #ead440;
+  color: black;
+  font-family: "Rowdies", Sans-Serif;
+  font-weight: 400;
+  animation: jsful 4s ease;
+}
+
+@keyframes jsful {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 90%;
+  }
+}
+
+.php {
+  border-radius: 50px;
+  width: 44%;
+  background-color: #8c40ea;
+  color: white;
+  font-family: "Rowdies", Sans-Serif;
+  font-weight: 400;
+  animation: phpful 4s ease;
+}
+
+@keyframes phpful {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 44%;
+  }
+}
+
+.react {
+  border-radius: 50px;
+  width: 30%;
+  background-color: #409eea;
+  color: white;
+  font-family: "Rowdies", Sans-Serif;
+  font-weight: 400;
+  animation: reactful 4s ease;
+}
+
+@keyframes reactful {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 30%;
+  }
+}
+
+.cpp {
+  border-radius: 50px;
+  width: 30%;
+  background-color: #216cee;
+  color: white;
+  font-family: "Rowdies", Sans-Serif;
+  font-weight: 400;
+  animation: cppful 4s ease;
+}
+
+@keyframes cppful {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 30%;
+  }
+}
+
+.py {
+  border-radius: 50px;
+  width: 38%;
+  background-color: #4056ea;
+  color: white;
+  font-family: "Rowdies", Sans-Serif;
+  font-weight: 400;
+  animation: pyful 4s ease;
+}
+
+@keyframes pyful {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 38%;
+  }
+}
+
+.talwind {
+  border-radius: 50px;
+  width: 55%;
+  background-color: #40b4ea;
+  color: black;
+  font-family: "Rowdies", Sans-Serif;
+  font-weight: 400;
+  animation: talful 4s ease;
+}
+
+@keyframes talful {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 55%;
+  }
+}
+
+.git {
+  border-radius: 50px;
+  width: 80%;
+  background-color: #030303;
+  color: white;
+  font-family: "Rowdies", Sans-Serif;
+  font-weight: 400;
+  animation: gitful 4s ease;
+}
+
+@keyframes gitful {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 80%;
+  }
+}
+
+.cp {
+  border-radius: 50px;
+  width: 87%;
+  background-color: #d6d6d6;
+  color: black;
+  font-family: "Rowdies", Sans-Serif;
+  font-weight: 400;
+  animation: cpful 4s ease;
+}
+
+@keyframes cpful {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 87%;
+  }
+}
+
+.prpro {
+  border-radius: 50px;
+  width: 61%;
+  background-color: #6919e5;
+  color: white;
+  font-family: "Rowdies", Sans-Serif;
+  font-weight: 400;
+  animation: prful 4s ease;
+}
+
+@keyframes prful {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 61%;
+  }
+}
+
+.lroom {
+  border-radius: 50px;
+  width: 70%;
+  background-color: #1241d2;
+  color: white;
+  font-family: "Rowdies", Sans-Serif;
+  font-weight: 400;
+  animation: lrful 4s ease;
+}
+
+@keyframes lrful {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 70%;
+  }
+}
+
+.canva {
+  border-radius: 50px;
+  width: 78%;
+  background-color: #3c12d2;
+  color: white;
+  font-family: "Rowdies", Sans-Serif;
+  font-weight: 400;
+  animation: canful 4s ease;
+}
+
+@keyframes canful {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 78%;
+  }
+}
+
+.px {
+  border-radius: 50px;
+  width: 96%;
+  background-color: #12b6d2;
+  color: white;
+  font-family: "Rowdies", Sans-Serif;
+  font-weight: 400;
+  animation: pxful 4s ease;
+}
+
+@keyframes pxful {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 96%;
+  }
+}
+
+.km {
+  border-radius: 50px;
+  width: 95%;
+  background-color: #ea5440;
+  color: white;
+  font-family: "Rowdies", Sans-Serif;
+  font-weight: 400;
+  animation: kmful 4s ease;
+}
+
+@keyframes kmful {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 95%;
+  }
+}
+
+.cam {
+  border-radius: 50px;
+  width: 90%;
+  background-color: #d7d7d7;
+  color: black;
+  font-family: "Rowdies", Sans-Serif;
+  font-weight: 400;
+  animation: camful 4s ease;
+}
+
+@keyframes camful {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .navbar {
+    height: auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    background: #2a2a2a;
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: -200%;
+    gap: 30px;
+    flex-direction: column;
+    transition: all 0.4s ease;
+  }
+  
+  .active {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  
+  .bar {
+    width: 18px;
+    height: 1.8px;
+  }
+  
+  .logo-nav {
+    width: 50px;
+  }
+  
+  .logox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+  }
+  
+  .logo {
+    margin-top: 5%;
+  }
+  
+  .menu-icon {
+    display: flex;
+    padding: 5%;
+  }
+  
+  .a-linkNav {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Poppins", Sans-Serif;
+    font-weight: 500;
+    border-bottom: 2px solid #454846;
+    cursor: pointer;
+    font-size: .6em;
+    transition: .4s;
+  }
+  
+  
+  
+  .activeNav {
+    border-bottom: 2px solid #41eb55;
+  }
+  
+  .desk-judul {
+    font-size: .5em;
+    padding: 5px 50px;
+  }
+  
+  .footer {
+    height: auto;
+    font-size: .6em;
+  }
+  
+  .left-ft1 {
+    font-size: .2em;
+  }
+  
+  .left-ft2 {
+    font-size: .2em;
+  }
+  
+  .center-ft {
+    margin-top: 0;
+    margin-bottom: 5%;
+  }
+  
+  .img-skil {
+    width: 30px;
+  }
+  
+  .img-skil-pre {
+    width: 20px;
+  }
+}
+
+@media screen and (min-width: 368px) {
+  .navbar {
+    height: auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    background: #2a2a2a;
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: -200%;
+    gap: 50px;
+    flex-direction: column;
+    transition: all 0.4s ease;
+  }
+  
+  .active {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  
+  .logox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5%;
+  }
+  
+  .logo-nav {
+    width: 100px;
+  }
+  
+  .menu-icon {
+    display: flex;
+    padding: 5%;
+  }
+  
+  #waktu {
+    font-size: .7em;
+  }
+  
+  .a-linkNav {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Poppins", Sans-Serif;
+    font-weight: 500;
+    border-bottom: 2px solid #454846;
+    cursor: pointer;
+    transition: .4s;
+  }
+  
+  .activeNav {
+    border-bottom: 2px solid #41eb55;
+  }
+  
+  
+  
+  .judul {
+    font-size: 1.3em;
+  }
+  
+  .desk-judul {
+    font-size: .6em;
+    padding: 3px 50px;
+    margin-bottom: 5px;
+  }
+  
+  .footer {
+    height: auto;
+  }
+  
+  .center-ft {
+    margin-top: 0;
+    margin-bottom: 5%;
+  }
+  
+  .img-skil {
+    width: 50px;
+  }
+  
+  .img-skil-pre {
+    width: 20px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .content {
+    margin: 0;
+    width: 100%;
+  }
+  
+  .navbar {
+    height: 4.5rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  .a-linkNav:active {
+    border-bottom: 3px solid #41eb55;
+    transition: .4s;
+    
+  }
+  
+  .a-linkNav {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: "Poppins", Sans-Serif;
+    font-weight: 500;
+    border-bottom: 3px solid #454846;
+    cursor: pointer;
+    transition: .4s;
+    font-size: .8em;
+  }
+  
+  .activeNav {
+    border-bottom: 3px solid #41eb55;
+  }
+  
+  .logox {
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-top: 0;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 2%;
+  }
+  
+  .logo-nav {
+    display: none;
+  }
+  
+  
+  
+  .judul {
+    font-size: 2.5em;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .desk-judul {
+    font-size: 1.1em;
+    text-align: right;
+    padding-right: 0;
+  }
+  
+  
+  
+  .opening {padding-top: 20%;}
+  
+  
+  
+  .footer {
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1em;
+    padding-top: 3%;
+  }
+  
+  .logo-ft {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-size: 2em;
+  }
+  
+  .left-ft1 {
+    font-size: .4em;
+    padding: 50px;
+  }
+  
+  .left-ft2 {
+    font-size: .4em;
+    padding: 50px;
+  }
+  
+  .center-ft {
+    font-size: .4em;
+    margin-top: 0;
+    padding: 50px;
+  }
+  
+  .img-skil {
+    width: 100px;
+  }
+  
+  .img-skil-pre {
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 1084px) {
+  .navbar {
+    height: 4.5rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  .a-linkNav:active {
+    border-bottom: 3px solid #41eb55;
+    transition: .4s;
+  }
+  
+  .a-linkNav {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: "Poppins", Sans-Serif;
+    font-weight: 500;
+    border-bottom: 3px solid #454846;
+    cursor: pointer;
+    transition: .4s;
+    font-size: .7em;
+  }
+  
+  .activeNav {
+    border-bottom: 3px solid #41eb55;
+  }
+  
+  .logox {
+    margin-top: 3%;
+  }
+  
+  .logo {
+    text-align: center;
+    padding: 0;
+    margin: 2%;
+    font-size: 1.3em;
+  }
+  
+  .logo-nav {
+    display: none;
+  }
+  
+  .desk-judul {
+    font-size: 1em;
+    text-align: right;
+    padding-right: 0;
+  }
+  
+  
+  
+  .opening {
+    padding-top: 20%;
+  }
+  
+  
+  
+  .footer {
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1em;
+    padding-top: 3%;
+  }
+  
+  .logo-ft {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-size: 2em;
+  }
+  
+  .left-ft1 {
+    font-size: .4em;
+    padding: 50px;
+  }
+  
+  .left-ft2 {
+    font-size: .4em;
+    padding: 50px;
+  }
+  
+  .center-ft {
+    font-size: .4em;
+    margin-top: 0;
+    padding: 50px;
+  }
+  
+  .img-skil {
+    width: 100px;
+  }
+  
+  .img-skil-pre {
+    width: 50px;
+  }
+}
